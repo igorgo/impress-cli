@@ -185,7 +185,6 @@ var commands = {
       console.log('Not implemented');
       doExit();
     } else execute('ps aux | grep "impress\\|%CPU" | grep -v "grep\\|status"', function() {
-      console.log('Stopped');
       doExit();
     });
   },
