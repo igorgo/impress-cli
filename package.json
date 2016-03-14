@@ -25,7 +25,6 @@
   "dependencies": {
     "async": "1.5.x",
     "colors": "1.1.x",
-    "minimist": "1.2.x",
     "mkdirp": "0.5.x",
     "ncp": "2.0.x"
   },
