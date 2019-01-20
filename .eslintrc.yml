@@ -1,7 +1,11 @@
 env:
   es6: true
   node: true
-extends: 'eslint:recommended'
+extends:
+  - eslint:recommended
+  - plugin:prettier/recommended
+plugins:
+  - prettier
 globals:
   applications: false
 rules:
@@ -171,3 +175,5 @@ rules:
   template-curly-spacing:
     - error
     - never
+  prettier/prettier:
+    - error
